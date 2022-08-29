@@ -1,0 +1,94 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #1584C4;
+    background-image: url('./pattern.png') ;
+    opacity: 0.75;
+    height: 1024px;
+    width: 1440px;
+    
+   
+}
+.name{
+    margin-top: 263px;
+    margin-left: 589px;
+    margin-right: 602px;
+    text-align: center;
+    color: white;
+    font-size:70px;
+    line-height: 82.89px;
+    font-family: 'Press Start 2P';
+    font-size: 83px;
+    font-weight: 400;
+    
+}
+.play{
+    background-color: #D8B618;
+    color: white;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border-color:#D8B618;
+    border-style: solid;
+    border-width: 20px;
+    font-size: 100px;
+    text-align: center;
+    margin-left: 623px;
+    margin-right: 623px;
+    margin-top: 5px;
+    padding-left: 25px;
+    cursor: pointer;
+  
+}
+.play:active{
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+
+.lvl{
+    background-color:  #D8B618;
+    color: white;
+    height: 70px;
+    width: 300px;
+    font-size: 20px;
+    font-style:normal;
+    border:solid 7px #BDA019;
+    border-radius: 100px;
+    text-align: center;
+    margin-left: 570px;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 20px;  
+    cursor: pointer;
+}
+
+.lvl:active{
+    transform: scale(0.9);
+    transition: 0.5s;
+    
+}
+
+.cpu{
+    background-color: #D8B618;
+    color: white;
+    height: 70px;
+    width: 300px;
+    font-size: 20px;
+    font-style:normal;
+    border:solid 7px #BDA019;
+    border-radius: 100px;
+    text-align: center;
+    margin-left: 570px;
+    margin-right: auto;
+    margin-bottom: 200px;   
+    cursor: pointer;
+   
+
+}
+
+.cpu:active{
+    transform: scale(0.9);
+    transition: 0.5s;
+   
+}
